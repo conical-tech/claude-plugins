@@ -1,4 +1,4 @@
-# Conical Forum Record
+# Conical Forum
 
 Conical Forum builds a working model of how you think through conversation. This plugin connects that
 record to Claude, so Claude can look up what you have said you believe, how you have changed your mind,
@@ -14,7 +14,7 @@ and how you tend to approach decisions, and give advice that fits you instead of
 
 ## Use it
 
-1. Add the plugin, then connect **Conical Forum Record** from the plugin's Connectors tab and sign in.
+1. Add the plugin, then connect **Conical Forum** from the plugin's Connectors tab and sign in.
    You need a Conical Forum account with connector access enabled.
 2. Ask naturally:
     - "What did I decide about moving teams, and did I change my mind?"

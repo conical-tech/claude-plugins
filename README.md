@@ -19,7 +19,7 @@ conical-record/
 
 ## Using a plugin
 
-See each plugin's README for what it sends and how to connect. For Conical Forum Record, setup is documented at <https://conical-tech.com/docs/connect-to-your-ai/claude-connector>.
+See each plugin's README for what it sends and how to connect. For Conical Forum, setup is documented at <https://conical-tech.com/docs/connect-to-your-ai/claude-connector>.
 
 ## Validate
 
