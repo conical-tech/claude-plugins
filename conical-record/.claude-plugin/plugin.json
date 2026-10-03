@@ -3,8 +3,22 @@
   "displayName": "Conical Forum Record",
   "version": "1.0.0",
   "description": "Give Claude your Conical Forum record: the beliefs you have stated, the domains you have explored, and how you tend to think. Claude uses it to personalize advice and can save new beliefs or conversations back to it.",
-  "author": { "name": "Conical Technologies", "url": "https://conical-tech.com" },
+  "author": {
+    "name": "Conical Technologies",
+    "url": "https://conical-tech.com"
+  },
   "homepage": "https://conical-tech.com/forum",
+  "icon": "./icon.png",
+  "documentationUrl": "https://conical-tech.com/docs/connect-to-your-ai/claude-connector",
+  "supportUrl": "https://conical-tech.com/contact",
+  "privacyPolicyUrl": "https://forum.conical.tech/privacy",
+  "termsOfServiceUrl": "https://forum.conical.tech/terms",
   "license": "MIT",
-  "keywords": ["personalization", "memory", "journal", "reflection", "mcp"]
+  "keywords": [
+    "personalization",
+    "memory",
+    "journal",
+    "reflection",
+    "mcp"
+  ]
 }
