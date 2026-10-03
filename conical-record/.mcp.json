@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "conical-record": {
+      "type": "http",
+      "url": "https://forum.conical.tech/mcp"
+    }
+  }
+}
