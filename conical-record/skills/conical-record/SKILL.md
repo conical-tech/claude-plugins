@@ -44,6 +44,18 @@ Writes go to a permanent record, so act only on the user's request, or after off
 - To tidy the record, use `review_queue` and walk the user through items one at a time, applying their answers
   with `refine_belief`. Never decide for them.
 
+## Seeing it over time
+
+- `get_thinking_days` returns the user's conversation history as a grid of days: how many turns they wrote, how
+  many were substantive (25 or more words), how many were bare confirmations, and how many beliefs were written or
+  revised. It holds counts only. If you can build an interactive page, draw a calendar grid shaded by substantive
+  turns and let the user pick a day; call the tool again with that `date` for the detail. Otherwise summarise it in
+  words. The result includes a link to the same view inside Conical Forum; offer it.
+- `measure_conversation` counts the turns of the conversation you pass it, typically the current one, and saves
+  nothing. Use it only when the user asks for a live view of this chat, and again when they ask to refresh it.
+- Describe these counts as activity. Word count is a rough signal, so never present it as a judgement of how well
+  the user was thinking.
+
 ## Feedback
 
 If the user says a result was or was not useful, call `rate_result` with the `invocation_id` returned with that
