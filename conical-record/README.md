@@ -37,6 +37,8 @@ and how you tend to approach decisions, and give advice that fits you instead of
 | `search` / `fetch`     | Keyword search and full item lookup                           | No            |
 | `get_wrap_up`          | Reads an existing daily wrap-up (never generates one)         | No            |
 | `review_queue`         | Lists inferred beliefs for you to confirm                     | No            |
+| `get_thinking_days`    | Your conversation history as a day grid (counts only)         | No            |
+| `measure_conversation` | Counts the turns of the current chat; saves nothing           | No            |
 | `record_belief`        | Saves a belief you stated                                     | Adds          |
 | `record_entry`         | Saves a journal entry you wrote                               | Adds          |
 | `save_conversation`    | Saves a conversation transcript                               | Adds          |
